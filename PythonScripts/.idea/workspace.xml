@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3fd42f8-b172-47e5-8531-a818931372c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AssetsVsAssets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EquityVsEquity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssetsVsLiabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/AssetsVsLiabilities.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompareAssetsVsLiabilties.py" beforeDir="false" afterPath="$PROJECT_DIR$/CompareAssetsVsLiabilties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetsVsAssets.html" beforeDir="false" afterPath="$PROJECT_DIR$/AssetsVsAssets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetsVsAssets.py" beforeDir="false" afterPath="$PROJECT_DIR$/AssetsVsAssets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestMain.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +22,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CompareAssetsVsLiabilties.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="76" />
+            <state>
+              <caret selection-end-line="4" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AssetsVsAssets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -32,10 +44,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AssetsVsAssets.py">
+        <entry file="file://$PROJECT_DIR$/EquityVsEquity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="67" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+            <state relative-caret-position="187">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -46,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -73,6 +85,7 @@
         <option value="$PROJECT_DIR$/CompareAssetsVsLiabilties.py" />
         <option value="$PROJECT_DIR$/AssetsVsAssets.py" />
         <option value="$PROJECT_DIR$/TestMain.py" />
+        <option value="$PROJECT_DIR$/EquityVsEquity.py" />
       </list>
     </option>
   </component>
@@ -203,12 +216,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570299507046</updated>
-      <workItem from="1570299508248" duration="8899000" />
+      <workItem from="1570299508248" duration="10133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8899000" />
+    <option name="totallyTimeSpent" value="10133000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,8 +280,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CompareAssetsVsLiabilties.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="76" />
+        <state>
+          <caret selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsVsAssets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
@@ -277,18 +300,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestMain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsVsAssets.py">
+    <entry file="file://$PROJECT_DIR$/EquityVsEquity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="67" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
