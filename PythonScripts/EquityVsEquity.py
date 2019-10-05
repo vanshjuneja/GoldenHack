@@ -12,7 +12,7 @@ class EquityVsEquity(object):
             name='Previous Year Equities',
             orientation='h',
             marker=dict(
-                color='#0F9D58',
+                color='#5DADE2',
             )
         ))
         fig.add_trace(go.Bar(
@@ -21,7 +21,7 @@ class EquityVsEquity(object):
             name='Current Year Equities',
             orientation='h',
             marker=dict(
-                color='#0F9D58',
+                color='#FFA500',
             )
         ))
 
