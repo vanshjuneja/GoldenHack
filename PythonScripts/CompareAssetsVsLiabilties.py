@@ -1,5 +1,7 @@
 import numpy
 import plotly
 
-def __init__():
-    
+
+class CompareAssetsVsLiabilities(object):
+    def __init__(self, assets, liabilties):
+        
