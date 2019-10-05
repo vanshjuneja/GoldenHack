@@ -1,15 +1,11 @@
 import plotly.graph_objects as go
 import plotly.io as pyo
 
-
 class CompareAssetsVsLiabilities(object):
     def __init__(self, assets, liabilties):
         labels = ['Assets', 'Liabilities']
         values = [assets, liabilties]
-        com = dict(labels=labels,
-                   values=values, )
 
-        # Use `hole` to create a donut-like pie chart
         fig = go.Figure(data=[
             go.Pie(labels=labels,
                    # title='</br>Assets</br>VS</br>Liabilities',

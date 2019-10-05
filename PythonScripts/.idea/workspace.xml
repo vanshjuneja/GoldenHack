@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3fd42f8-b172-47e5-8531-a818931372c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AssetsVsAssets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetsVsLiabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/AssetsVsLiabilities.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CompareAssetsVsLiabilties.py" beforeDir="false" afterPath="$PROJECT_DIR$/CompareAssetsVsLiabilties.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestMain.py" afterDir="false" />
     </list>
@@ -17,11 +19,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CompareAssetsVsLiabilties.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="64" lean-forward="true" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+            <state relative-caret-position="340">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AssetsVsAssets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="67" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -33,7 +47,10 @@
         <entry file="file://$PROJECT_DIR$/TestMain.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +70,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TestMain.py" />
         <option value="$PROJECT_DIR$/CompareAssetsVsLiabilties.py" />
+        <option value="$PROJECT_DIR$/AssetsVsAssets.py" />
+        <option value="$PROJECT_DIR$/TestMain.py" />
       </list>
     </option>
   </component>
@@ -185,12 +203,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570299507046</updated>
-      <workItem from="1570299508248" duration="5709000" />
+      <workItem from="1570299508248" duration="8899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5709000" />
+    <option name="totallyTimeSpent" value="8899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,13 +251,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestMain.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_umd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -256,8 +267,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CompareAssetsVsLiabilties.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="64" lean-forward="true" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        <state relative-caret-position="340">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsVsAssets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="67" lean-forward="true" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
