@@ -4,8 +4,8 @@ import plotly.io as pyo
 
 class AssetsVsAssets(object):
     def __init__(self, asset1, liabilities1, asset2, liabilities2):
-        name1='Previous Year'
-        name2='Current Year'
+        name1 = '2018'
+        name2 = '2019'
         fig = go.Figure()
         fig.add_trace(go.Bar(
             y=[name2, name1],
