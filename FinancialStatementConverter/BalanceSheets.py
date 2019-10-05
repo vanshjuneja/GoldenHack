@@ -1,1 +1,2 @@
 print("DING DONG")
+input()
