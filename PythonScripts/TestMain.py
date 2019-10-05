@@ -1,4 +1,4 @@
 import CompareAssetsVsLiabilties as ca
 
 
-c = ca.CompareAssetsVsLiabilities(5, 6)
+c = ca.CompareAssetsVsLiabilities(assets=5, liabilties=10)
