@@ -789,8 +789,16 @@
                                         </div>
                                         <ul class="nav">
                                             <li class="nav-item"><a href="javascript:void(0);" class="active nav-link">A&L</a></li>
-                                            <li class="nav-item"><a href="javascript:void(0);" class="nav-link second-tab-toggle">Owner's Equity</a></li>
+                                            <li class="nav-item"><a onclick="ownereq();" class="nav-link second-tab-toggle">Owner's Equity</a></li>
                                         </ul>
+
+                                        <script>
+                                            function ownereq(){
+                                                var a = document.getElementById("graph").innerHTML;
+                                                document.getElementById("graph").src="/static/EquitiesVsEquities.html";
+                                                document.getElementById("graph").innerHTML = a;
+                                            }
+                                        </script>
                                     </div>
                                     <div class="card-body">
                                         <div class="tab-content">
@@ -798,7 +806,7 @@
                                                 <div class="card mb-3 widget-chart widget-chart2 text-left w-100">
                                                     <div class="widget-chat-wrapper-outer">
                                                         <div class="widget-chart-wrapper widget-chart-wrapper-lg opacity-10 m-0">
-                                                            <embed src="/static/AssetsVsAssets.html" width="100%" height="400px">
+                                                            <embed src="/static/AssetsVsAssets.html" width="100%" height="400px" id="graph">
                                                         </div>
                                                     </div>
                                                 </div>
