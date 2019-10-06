@@ -24,4 +24,4 @@ class RevenueVsExpenses(object):
             )
         ))
 
-        pyo.write_html(fig, file='RevenueVsExpenses.html', auto_open=False)
+        pyo.write_html(fig, file='static/RevenueVsExpenses.html', auto_open=False)

@@ -19,4 +19,4 @@ class LiabilitiesSplit(object):
                    hoverinfo='value+label',
                    marker_colors=colors)])
 
-        pyo.write_html(fig, file='LiabilitiesSplit.html', auto_open=False)
+        pyo.write_html(fig, file='static/LiabilitiesSplit.html', auto_open=False)

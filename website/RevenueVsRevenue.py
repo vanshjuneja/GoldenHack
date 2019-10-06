@@ -51,4 +51,4 @@ class RevenueVsRevenue(object):
                 'bar': {'color': "black"}}))
         fig.update_layout(margin={'t': 0, 'b': 0, 'l': 0})
 
-        pyo.write_html(fig, file='RevenueVsRevenue.html', auto_open=False)
+        pyo.write_html(fig, file='static/RevenueVsRevenue.html', auto_open=False)
