@@ -29,4 +29,4 @@ class AssetsVsAssets(object):
         ))
         fig.update_yaxes(nticks=4)
         fig.update_layout(barmode='stack')
-        pyo.write_html(fig, file='AssetsVsAssets.html', auto_open=True)
+        pyo.write_html(fig, file='AssetsVsAssets.html', auto_open=False)

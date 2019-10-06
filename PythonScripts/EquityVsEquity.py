@@ -25,4 +25,4 @@ class EquityVsEquity(object):
             )
         ))
 
-        pyo.write_html(fig, file='EquitiesVsEquities.html', auto_open=True)
+        pyo.write_html(fig, file='EquitiesVsEquities.html', auto_open=False)

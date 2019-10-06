@@ -19,4 +19,4 @@ class AssetsSplit(object):
                    hoverinfo='value+label',
                    marker_colors=colors)])
 
-        pyo.write_html(fig, file='AssetsSplit.html', auto_open=True)
+        pyo.write_html(fig, file='AssetsSplit.html', auto_open=False)
