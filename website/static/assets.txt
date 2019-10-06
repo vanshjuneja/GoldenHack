@@ -14,7 +14,7 @@ Land
 5500
 Land improvements
 6500
-Buildadsafjasfings
+Buildings
 90000
 Equipment
 20100
