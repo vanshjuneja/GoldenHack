@@ -1,0 +1,36 @@
+﻿Investment Company,
+Balance Sheet,
+"As of Dec. 21, 2019",
+,
+Assets,$
+Cash,"100,000"
+Accounts receivable,"23,350"
+Prepaid buiding rent,"1,500"
+Insurance,"3,250"
+Supplies,430
+Investments,"36,000"
+Land,"5,500"
+Land improvements,"6,500"
+Buildings,"90,000"
+Equipment,"20,100"
+Goodwill,"14,550"
+Trade names,"34,000"
+,
+Total Assets,"335,180"
+,
+Liabilities,$
+Notes payable,"5,000"
+Accounts payable,"24,000"
+Salaries payable,"9,600"
+Income tax payable,"6,200"
+Unearned revenues,"2,300"
+Notes payable,"15,000"
+Bonds payable,"200,000"
+Total Liabilities,"262,100"
+,
+Stockholders' Equity,
+Common stock,"43,000"
+Retained earnings,"30,080"
+Total stockholders' equity,"73,080"
+,
+Total liabilities & stockholders' equity,"335,180"

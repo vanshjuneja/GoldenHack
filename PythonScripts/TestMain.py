@@ -4,6 +4,10 @@ import EquityVsEquity as ee
 import AssetsSplit as asp
 import LiabilitiesSplit as lsp
 import RevenueVsExpenses as re
+import RevenueVsRevenue as rr
+import BalanceSheets as bs
+
+
 
 # c1 = ca.CompareAssetsVsLiabilities(assets=5, liabilties=10)
 # c2 = aa.AssetsVsAssets(30, 5, 40, 3)
@@ -17,3 +21,4 @@ import RevenueVsExpenses as re
 #      'beill9', 'birll9'],
 #     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
 # c6 = re.RevenueVsExpenses(100, 5)
+#c7 = rr.RevenueVsRevenue(1003.24,2382.54, 1200, 2000)
