@@ -1,0 +1,14 @@
+Notes payable
+5000
+Accounts payable
+14000
+Salaries payable
+9600
+Income tax payable
+6200
+Unearned revenues
+2300
+Notes payable
+15000
+Bonds payable
+167800

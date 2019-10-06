@@ -1,0 +1,24 @@
+Cash
+90000
+Accounts receivable
+15500
+Prepaid buiding rent
+1300
+Insurance
+3000
+Supplies
+400
+Investments
+26000
+Land
+5000
+Land improvements
+4000
+Apples
+75500
+Equipment
+17750
+Goodwill
+5000
+Trade names
+10000
