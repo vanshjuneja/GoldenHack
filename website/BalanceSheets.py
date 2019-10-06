@@ -5,10 +5,10 @@ def oldBalanceSheet():
         csv_reader = csv.reader(csv_file, delimiter=',')
         count = 0
 
-        assets = open("assetsOld.txt", 'w')
-        liab = open("liabOld.txt", 'w')
-        oe = open("oeOld.txt", 'w')
-        assetsVSLiab = open("assets_vs_liabOld.txt", 'w')
+        assets = open("static/assetsOld.txt", 'w')
+        liab = open("static/liabOld.txt", 'w')
+        oe = open("static/oeOld.txt", 'w')
+        assetsVSLiab = open("static/assets_vs_liabOld.txt", 'w')
 
         asset_titles = []
         asset_values = []
@@ -65,10 +65,10 @@ def newBalanceSheet():
         csv_reader = csv.reader(csv_file, delimiter=',')
         count = 0
 
-        assets = open("assets.txt", 'w')
-        liab = open("liab.txt", 'w')
-        oe = open("oe.txt", 'w')
-        assetsVSLiab = open("assets_vs_liab.txt", 'w')
+        assets = open("static/assets.txt", 'w')
+        liab = open("static/liab.txt", 'w')
+        oe = open("static/oe.txt", 'w')
+        assetsVSLiab = open("static/assets_vs_liab.txt", 'w')
 
         asset_titles = []
         asset_values = []

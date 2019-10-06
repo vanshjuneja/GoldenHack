@@ -14,14 +14,14 @@ bs.oldBalanceSheet()
 bs.newBalanceSheet()
 
 ########## VARIABLES ##########
-old_assets = open("assetsOld.txt", 'r')
-old_liab = open("liabOld.txt", 'r')
-old_oe = open("oeOld.txt", 'r')
-old_assetsVSLiab = open("assets_vs_liabOld.txt", 'r')
-assets = open("assets.txt", 'r')
-liab = open("liab.txt", 'r')
-oe = open("oe.txt", 'r')
-assetsVSLiab = open("assets_vs_liab.txt", 'r')
+old_assets = open("static/assetsOld.txt", 'r')
+old_liab = open("static/liabOld.txt", 'r')
+old_oe = open("static/oeOld.txt", 'r')
+old_assetsVSLiab = open("static/assets_vs_liabOld.txt", 'r')
+assets = open("static/assets.txt", 'r')
+liab = open("static/liab.txt", 'r')
+oe = open("static/oe.txt", 'r')
+assetsVSLiab = open("static/assets_vs_liab.txt", 'r')
 
 old_a_vals = []
 old_a_titles = []
