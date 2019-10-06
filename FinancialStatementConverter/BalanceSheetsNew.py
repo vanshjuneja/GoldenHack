@@ -1,5 +1,6 @@
 import csv
 
+
 with open('Financial_Statements\BalanceSheet1.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     count = 0
@@ -7,7 +8,7 @@ with open('Financial_Statements\BalanceSheet1.csv') as csv_file:
     assets = open("assets.txt", 'w')
     liab = open("liab.txt", 'w')
     oe = open("oe.txt", 'w')
-    assetsVSLiab = open("assets_vs_liab.txt", 'w')
+    assetsVSLiab = open("assets_vs_liabOld.txt", 'w')
 
     asset_titles = []
     asset_values = []
