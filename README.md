@@ -1,3 +1,3 @@
 ﻿# Viz
   
-  *Note: The website is found in GoldenHack/websites/templates/index.html
+  *Note: The website is found in GoldenHack/websites/templates/index.html*
