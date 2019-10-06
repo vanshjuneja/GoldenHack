@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3fd42f8-b172-47e5-8531-a818931372c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../FinancialStatementConverter/BalanceSheetsNew.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinancialStatementConverter/BalanceSheetsOld.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinancialStatementConverter/Text_Extracter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinancialStatementConverter/assets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinancialStatementConverter/assets_vs_liab.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinancialStatementConverter/liab.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FinancialStatementConverter/oe.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Res/assets.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Res/assets_vs_liab.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Res/liab.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Res/oe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RevenueVsRevenue.html" beforeDir="false" afterPath="$PROJECT_DIR$/RevenueVsRevenue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BalanceSheets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Financial_Statements/BalanceSheet1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Financial_Statements/BalanceSheet1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestMain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Text_Extracter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Text_Extracter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,23 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AssetsSplit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LiabilitiesSplit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -96,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="268">
+              <caret line="56" column="50" lean-forward="true" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -108,20 +98,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BalanceSheets.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="476">
+              <caret line="93" column="28" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RevenueVsRevenue.py">
+        <entry file="file://$PROJECT_DIR$/Text_Extracter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="88" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -138,6 +125,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>target2</find>
+      <find>oe_total</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,8 +141,10 @@
         <option value="$PROJECT_DIR$/RevenueVsExpenses.py" />
         <option value="$PROJECT_DIR$/LiabilitiesSplit.py" />
         <option value="$PROJECT_DIR$/RevenueVsRevenue.py" />
-        <option value="$PROJECT_DIR$/TestMain.py" />
+        <option value="$PROJECT_DIR$/BalanceSheetsOld.py" />
+        <option value="$PROJECT_DIR$/BalanceSheetsNew.py" />
         <option value="$PROJECT_DIR$/BalanceSheets.py" />
+        <option value="$PROJECT_DIR$/TestMain.py" />
       </list>
     </option>
   </component>
@@ -290,12 +280,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570299507046</updated>
-      <workItem from="1570299508248" duration="23955000" />
+      <workItem from="1570299508248" duration="27091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23955000" />
+    <option name="totallyTimeSpent" value="27091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,12 +301,12 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.32936078" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -407,16 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AssetsSplit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RevenueVsRevenue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
@@ -426,9 +406,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Text_Extracter.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/oe.txt">
       <provider selected="true" editor-type-id="text-editor" />
@@ -440,10 +417,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BalanceSheetsNew.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssetsSplit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Text_Extracter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="88" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BalanceSheets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="93" column="28" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestMain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="268">
+          <caret line="56" column="50" lean-forward="true" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
