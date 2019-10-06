@@ -6,8 +6,8 @@ class RevenueVsRevenue(object):
     def __init__(self, revenue1, revenue2, target1, target2):
         fig = go.Figure()
 
-        range1 = target2 * 0.3
-        range2 = target2 * 0.6
+        range1 = target2 * 0.6
+        range2 = target2 * 0.8
         rangex = max(revenue2, target2) * 1.1
         ref = target2
         fig.add_trace(go.Indicator(
@@ -28,8 +28,8 @@ class RevenueVsRevenue(object):
                     {'range': [range1, range2], 'color': "lightgray"}],
                 'bar': {'color': "black"}}))
 
-        range1 = target1 * 0.3
-        range2 = target1 * 0.6
+        range1 = target1 * 0.6
+        range2 = target1 * 0.8
         rangex = max(revenue1, target1) * 1.1
 
         fig.add_trace(go.Indicator(
