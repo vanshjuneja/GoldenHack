@@ -8,6 +8,29 @@ import RevenueVsRevenue as rr
 import BalanceSheets as bs
 import FinancialInf as fi
 import Targeter as trg
+import os
+import sys
+
+if os.path.exists('static/RevenueVsRevenue.html'):
+    os.remove('static/RevenueVsRevenue.html')
+
+if os.path.exists('static/AssetsSplit.html'):
+    os.remove('static/AssetsSplit.html')
+
+if os.path.exists('static/LiabilitiesSplit.html'):
+    os.remove('static/LiabilitiesSplit.html')
+
+if os.path.exists('static/RevenueVsExpenses.html'):
+    os.remove('static/RevenueVsExpenses.html')
+
+if os.path.exists('static/AssetsVsAssets.html'):
+    os.remove('static/AssetsVsAssets.html')
+
+if os.path.exists('static/EqVsEq.html'):
+    os.remove('static/EqVsEq.html')
+
+if os.path.exists('static/AssetsVsLiabilities.html'):
+    os.remove('static/AssetsVsLiabilities.html')
 
 # INITIALIZATION
 bs.oldBalanceSheet()
@@ -44,9 +67,6 @@ oe_total = 0
 assetsTotal = 0
 liabTotal = 0
 revtt = 0
-
-
-########## ######### ##########
 
 
 # TextExtractor Methods
@@ -115,13 +135,16 @@ def getVals():
     assetsVSLiab.readline()
     liabTotal = int(assetsVSLiab.readline().replace('\n', '').replace(',', ''))
 
+    c1 = ca.CompareAssetsVsLiabilities(int(assetsTotal), int(liabTotal))
+    c2 = aa.AssetsVsAssets(float(old_assetsTotal), float(old_liabTotal), float(assetsTotal), float(liabTotal))
+    c3 = ee.EquityVsEquity(old_oe_total, oe_total)
+    c4 = asp.AssetsSplit(a_titles, a_vals)
+    c5 = lsp.LiabilitiesSplit(L_titles, L_vals)
+    c6 = re.RevenueVsExpenses(revtt, expenses)
+    c7 = rr.RevenueVsRevenue(revone, revtt, tg1, tg2)
+    sys.exit()
+
+
+
 
 getVals()
-
-c1 = ca.CompareAssetsVsLiabilities(int(assetsTotal), int(liabTotal))
-c2 = aa.AssetsVsAssets(float(old_assetsTotal), float(old_liabTotal), float(assetsTotal), float(liabTotal))
-c3 = ee.EquityVsEquity(old_oe_total, oe_total)
-c4 = asp.AssetsSplit(a_titles, a_vals)
-c5 = lsp.LiabilitiesSplit(L_titles, L_vals)
-c6 = re.RevenueVsExpenses(revtt, expenses)
-c7 = rr.RevenueVsRevenue(revone, revtt, tg1, tg2)
