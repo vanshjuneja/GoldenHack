@@ -4,21 +4,21 @@ import plotly.io as pyo
 
 class EquityVsEquity(object):
     def __init__(self, equities1, equities2):
-        name1 = 'Previous Year Equities'
+        name1 = '2018</br>Owners</br>Equity'
         fig = go.Figure()
         fig.add_trace(go.Bar(
             y=[name1],
             x=[equities1],
-            name='2018<br>Owners<br>Equity',
+            name='2018OwnersEquity',
             orientation='h',
             marker=dict(
                 color='#5DADE2',
             )
         ))
         fig.add_trace(go.Bar(
-            y=['Current Year Equities'],
+            y=['2019</br>Owners</br>Equity'],
             x=[equities2],
-            name='2019<br>Owners<br>Equity',
+            name='2019OwnersEquity',
             orientation='h',
             marker=dict(
                 color='#FFA500',
