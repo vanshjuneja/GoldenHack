@@ -14,7 +14,7 @@ Land
 5000
 Land improvements
 4000
-Apples
+Buildings
 75500
 Equipment
 17750
