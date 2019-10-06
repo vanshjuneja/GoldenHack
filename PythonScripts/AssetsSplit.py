@@ -16,7 +16,7 @@ class AssetsSplit(object):
                    text=assets,
                    textposition='inside',
                    textfont=dict(size=30, color='#FFFFFF'),
-                   hoverinfo='value',
+                   hoverinfo='value+label',
                    marker_colors=colors)])
 
         pyo.write_html(fig, file='AssetsSplit.html', auto_open=True)

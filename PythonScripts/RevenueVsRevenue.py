@@ -13,7 +13,7 @@ class RevenueVsRevenue(object):
         fig.add_trace(go.Indicator(
             mode="number+gauge+delta",
             value=revenue2,
-            delta={'reference': target2},
+            delta={'reference': revenue1},
             domain={'x': [0.25, 1], 'y': [0.4, 0.6]},
             title={'text': "2019 Revenue ($CAD)"},
             gauge={

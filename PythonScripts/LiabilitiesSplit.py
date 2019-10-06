@@ -16,7 +16,7 @@ class LiabilitiesSplit(object):
                    text=liabilities,
                    textposition='inside',
                    textfont=dict(size=30, color='#FFFFFF'),
-                   hoverinfo='value',
+                   hoverinfo='value+label',
                    marker_colors=colors)])
 
         pyo.write_html(fig, file='LiabilitiesSplit.html', auto_open=True)

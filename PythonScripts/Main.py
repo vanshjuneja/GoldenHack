@@ -6,6 +6,8 @@ import LiabilitiesSplit as lsp
 import RevenueVsExpenses as re
 import RevenueVsRevenue as rr
 import BalanceSheets as bs
+import FinancialInf as fi
+import Targeter as trg
 
 # INITIALIZATION
 bs.oldBalanceSheet()
@@ -41,6 +43,7 @@ L_titles = []
 oe_total = 0
 assetsTotal = 0
 liabTotal = 0
+revtt = 0
 
 
 ########## ######### ##########
@@ -55,6 +58,11 @@ def getVals():
     global old_assetsTotal
     global old_liabTotal
     line = old_assets.readline().replace('\n', '')
+    global revtt
+    global revone
+    global expenses
+    global tg1
+    global tg2
 
     while line:
         old_a_titles.append(line)
@@ -63,6 +71,8 @@ def getVals():
         line = old_assets.readline().replace('\n', '').replace(',', '')
 
     line = old_liab.readline().replace('\n', '')
+    revtt = trg.revTT()
+    expenses = trg.getExP()
 
     while line:
         old_L_titles.append(line)
@@ -79,6 +89,9 @@ def getVals():
     old_liabTotal = old_assetsVSLiab.readline().replace('\n', '').replace(',', '')
 
     line = assets.readline().replace('\n', '')
+    revone = trg.revOnE()
+    tg1 = fi.Ta1
+    tg2 = fi.Ta2
 
     while line:
         a_titles.append(line)
@@ -103,42 +116,12 @@ def getVals():
     liabTotal = int(assetsVSLiab.readline().replace('\n', '').replace(',', ''))
 
 
-# c1 = ca.CompareAssetsVsLiabilities(assets=5, liabilties=10)
-# c2 = aa.AssetsVsAssets(30, 5, 40, 3)
-# c3 = ee.EquityVsEquity(15,12)
-# c4 = asp.AssetsSplit(
-#     ['hi', 'my', 'name', 'is', 'bill', 'bil2l', 'bi3ll', 'bil4l', 'bi5ll', 'bill6', 'bi7ll', 'bi8ll', 'bill9', 'billw9',
-#      'beill9', 'birll9'],
-#     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
-# c5 = lsp.LiabilitiesSplit(
-#     ['hi', 'my', 'name', 'is', 'bill', 'bil2l', 'bi3ll', 'bil4l', 'bi5ll', 'bill6', 'bi7ll', 'bi8ll', 'bill9', 'billw9',
-#      'beill9', 'birll9'],
-#     [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16])
-# c6 = re.RevenueVsExpenses(100, 5)
-# c7 = rr.RevenueVsRevenue(1003.24,2382.54, 1200, 2000)
-
 getVals()
 
-print('______________________________')
-print('______________________________')
-print('______________________________')
-
-print(a_titles)
-print(a_vals)
-print(L_titles)
-print(L_vals)
-print(oe_total)
-print(assetsTotal)
-print(liabTotal)
-
-print('______________________________')
-print('______________________________')
-print('______________________________')
-
-print(old_a_titles)
-print(old_a_vals)
-print(old_L_titles)
-print(old_L_vals)
-print(old_oe_total)
-print(old_assetsTotal)
-print(old_liabTotal)
+c1 = ca.CompareAssetsVsLiabilities(int(assetsTotal), int(liabTotal))
+c2 = aa.AssetsVsAssets(float(old_assetsTotal), float(old_liabTotal), float(assetsTotal), float(liabTotal))
+c3 = ee.EquityVsEquity(old_oe_total, oe_total)
+c4 = asp.AssetsSplit(a_titles, a_vals)
+c5 = lsp.LiabilitiesSplit(L_titles, L_vals)
+c6 = re.RevenueVsExpenses(revtt, expenses)
+c7 = rr.RevenueVsRevenue(revone, revtt, tg1, tg2)
